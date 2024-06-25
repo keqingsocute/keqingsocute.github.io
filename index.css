@@ -1,0 +1,47 @@
+body{
+  font-family: Verdana;
+  font-size: 2em;
+  text-align: center;
+  align-items: center;
+}
+
+#title,
+#range{
+  margin-top: 1.5em;
+  margin-bottom: 3em;
+  display: block;
+}
+
+#guess,
+#enter,
+#restart{
+  height: 100px;
+  width: 300px;
+  text-align: center;
+  font-size: 30px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(85, 83, 83, 0.7);
+  transition: all 0.3s;
+}
+
+#enter{
+  background-color: rgb(127, 78, 217);
+}
+
+#enter:hover{
+  background-color: rgb(152, 119, 213);
+}
+
+#enter:active{
+  background-color: #ffffff;
+}
+
+#restart{
+  background-color: #ffffff;
+}
+
+#restart:active{
+  box-shadow: 0px 0px 5px rgba(138, 133, 133, 0.7);
+}
+
